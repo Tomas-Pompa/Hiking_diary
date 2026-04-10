@@ -1,0 +1,209 @@
+
+body {
+    background-color: #ffffff; /* Light background */
+    font-family: Georgia, serif;
+    color: #000000;
+}
+
+/* Align the code blocks */
+pre {
+  text-align: left;   /* Left-align the code blocks */
+  margin-left: 0px;  /* Adjust the space on the left of the code blocks */
+  margin-right: 0px; /* Adjust the space on the right of the code blocks */
+  font-family: monospace; /* Set the font for the code block */
+  background-color: #e3e3e3; /* Optional: change background color for better visibility */
+  padding-left: 0px; /* Padding inside the code block */
+}
+
+blockquote {
+    border-left: 4px solid #bfbfbf;
+    color: #1a1a1a !important;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em; 
+    background-color: #f5f5f5; /* Light background */
+    border-radius: 3px;
+}
+
+h1, h2, h3 {
+    color: #085391; /* Darker text color */
+    font-family: Georgia, serif;
+    text-transform: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+    font-size: 16px; /* Adjust paragraph font size */
+}
+
+/* Change the background color of the table of contents */
+#quarto-sidebar-toc-left {
+  font-family: Georgia, serif; 
+  background-color: #e7f3fe; /* Your desired background color for the TOC */
+  padding: 25px; /* Optional: Adds padding inside the TOC for better spacing */
+  border-radius: 10px; /* Optional: Adds rounded corners to the TOC */
+}
+
+/* Change the color of the title in the TOC */
+#quarto-sidebar-toc-left .sidebar-title {
+  color: #085391 !important; /* Example color for the title */
+  font-size: 1em; /* Adjust title size */
+  font-weight: bold; /* Make title bold */
+}
+
+.red {
+  color: #770000;
+}
+
+.myblue {
+  color: #86c5f9;
+}
+
+.darkblue{
+  color: #0b7dda;
+}
+
+.panelblue{
+  color: #0b7dda;
+  font-weight: bold; 
+  font-family: Consolas, "Courier New", Courier, monospace;
+}
+
+.panelorange{
+  color: #FF9900;
+  font-weight: bold; 
+}
+
+.darkgrey{
+  color: #4d4d4d;
+}
+
+.titlecolor{
+  color: #085391; /* Darker text color */
+  font-family: Georgia, serif;
+  font-weight: bold; 
+}
+
+.hid-me{
+  display: none;
+}
+
+hr {
+    height: 1px;
+    background-color: #0d8bf2;
+    color: #0d8bf2;
+}
+
+/* Change the color of the main title */
+h1.title {
+  color: #595959; /* Your desired title color */
+  font-size: 25px;
+}
+
+p.subtitle {
+  color: black; /* Your desired title color */
+  font-weight: bold; 
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Custom callout box for THEORY*/
+
+.theorybox {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+  margin-left: 0em;
+  border-radius: 5px;
+  border-left: solid #2196f3 .3rem;
+  border-right: solid 0.75px #e7eaed;
+  border-top: solid 0.75px #e7eaed;
+  border-bottom: solid 0.75px #e7eaed;
+  border-left-color: #2196f3 !important;
+}
+
+.theorybox-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.1rem 1.1rem;
+  margin-top: .3rem;
+  padding-right: 1.5rem;
+  background-image: url('open-book.png');
+}
+
+.theorybox-header {
+  //margin-top: 0.5em;
+  margin-bottom: 0em;
+  border-bottom: none;
+  border-radius: 3px;
+  font-weight: 600;
+  opacity: 85%;
+  font-size: 0.9rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  background-color: #b6dcfb;
+  height: 2em;
+  overflow: hidden;
+}
+
+.theorybox-header p {
+  padding-top: 0.2em;
+}
+
+.theorybox-body {
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 3px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  background-color: #e7f3fe;
+}
+
+.theorybox-body > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+.mathbox {
+  border: 0.5px solid #e7eaed;
+  background-color: #e7f3fe;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-radius: 4px;
+}
+
+/* Remove syntax highlighting or color from code output */
+pre {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+table {
+  width: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #ffffff !important;  /* Light gray for odd rows */
+}
+table tbody tr:nth-child(even) {
+  background-color: #ffffff !important;  /* White for even rows */
+}
+
+/* Right-align the first column (row names) */
+table tbody tr td:first-child {
+  text-align: left;
+}

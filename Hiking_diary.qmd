@@ -1,0 +1,175 @@
+---
+title: "Náš turistický deník"
+subtitle: ""
+lightbox:
+  match: auto
+  effect: fade
+crossref:
+  fig-title: Figure
+  tbl-title: Table
+format: 
+  html: 
+    page-layout: full
+    grid:
+      sidebar-width: 300px
+      body-width: 1000px
+      margin-width: 50px
+    embed-resources: true
+    toc: true
+    toc-location: left
+    toc-title: Kde už jsme byli
+    toc-expand: 2
+    number-sections: true
+    number-depth: 3
+    # html-math-method: katex
+    smooth-scroll: true
+    link-external-newwindow: true
+    theme: materia
+    css: style/template.css
+    linkcolor: '#085391'
+    highlight-style: pygments
+    code-overflow: wrap
+    code-line-numbers: false
+    code-copy: true
+    code-link: true
+    code-block-bg: true     
+    # code-block-border-left: "#e3e3e3"
+    backgroundcolor: white
+    show-code: false
+    tbl-cap-location: top
+    fig-align: center
+    tbl-align: center
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE, 
+  message = FALSE,
+  fig.width = 8, 
+  fig.height = 7, 
+  fig.align = 'center'
+)
+```
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+
+library(leaflet)
+library(dplyr)
+
+# Path to images
+images_path <- "C:/Users/Tom/Desktop/Hiking_diary/fotky/"
+
+# Data of visited places
+adventures <- read.csv("Hiking_diary.csv") 
+adventures <- adventures %>% 
+  mutate(X = 1:nrow(adventures))
+
+# Icons according to the type
+ikony <- awesomeIcons(
+  icon = 'flag',
+  iconColor = 'white',
+  library = 'fa',
+  markerColor = case_when(
+    adventures$typ == "hut" ~ "blue",
+    adventures$typ == "peak" ~ "red",
+    adventures$typ == "ferrata" ~ "green",
+    adventures$typ == "camp" ~ "orange",
+    TRUE ~ "gray"
+  )
+)
+```
+
+# Mapa
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+# 
+leaflet(adventures[!is.na(adventures$typ), ]) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addAwesomeMarkers(
+    ~lon, ~lat,
+    icon = ikony,
+    popup = ~paste0(
+      "<b>", nazev, "</b><i>  (", typ, ")</i><br>", datum, "<br>",
+      popis_kratky, "<br>")
+  ) %>% 
+    addLegend(
+    position = "bottomright",
+    title = "Typ místa",
+    colors = c("blue","red","green", "orange"),
+    labels = c("horská chata","vrchol","ferrata", "camp"),
+    opacity = 0.5
+  )
+```
+
+# Ferraty
+
+```{r}
+#| results: asis
+#| echo: false
+ferrata_ids <- adventures %>% 
+  filter(typ == "ferrata") %>% 
+  select(X) %>% c() %>% unlist()
+for(id in ferrata_ids) {
+  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+             adventures[id, "popis_dlouhy"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+  if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
+}
+```
+
+# Vrcholy
+
+```{r}
+#| results: asis
+#| echo: false
+peak_ids <- adventures %>% 
+  filter(typ == "peak") %>% 
+  select(X) %>% c() %>% unlist()
+for(id in peak_ids) {
+  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+             adventures[id, "popis_dlouhy"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+  if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
+}
+```
+
+# Horské chaty
+
+```{r}
+#| results: asis
+#| echo: false
+huts_ids <- adventures %>% 
+  filter(typ == "hut") %>% 
+  select(X) %>% c() %>% unlist()
+
+for(id in huts_ids) {
+  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+             adventures[id, "popis_dlouhy"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+  if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
+}
+```
+
+# Kempy
+
+```{r}
+#| results: asis
+#| echo: false
+camp_ids <- adventures %>% 
+  filter(typ == "camp") %>% 
+  select(X) %>% c() %>% unlist()
+
+for(id in camp_ids) {
+  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+             adventures[id, "popis_dlouhy"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+  if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
+}
+```
+
