@@ -14,7 +14,7 @@ format:
       sidebar-width: 300px
       body-width: 1000px
       margin-width: 50px
-    embed-resources: true
+    embed-resources: false
     toc: true
     toc-location: left
     toc-title: Kde už jsme byli
@@ -60,7 +60,8 @@ library(leaflet)
 library(dplyr)
 
 # Path to images
-images_path <- "C:/Users/Tom/Desktop/Hiking_diary/fotky/"
+images_path <- "https://raw.githubusercontent.com/Tomas-Pompa/Hiking_diary/refs/heads/main/Photos/"
+# "C:/Users/Tom/Desktop/Hiking_diary/fotky/"
 
 # Data of visited places
 adventures <- read.csv("Hiking_diary.csv") 
@@ -90,7 +91,8 @@ ikony <- awesomeIcons(
 #| echo: false
 # 
 leaflet(adventures[!is.na(adventures$typ), ]) %>%
-  addProviderTiles("CartoDB.Positron") %>%
+  addProviderTiles("OpenTopoMap") %>%
+  # addProviderTiles("CyclOSM") %>% 
   addAwesomeMarkers(
     ~lon, ~lat,
     icon = ikony,
