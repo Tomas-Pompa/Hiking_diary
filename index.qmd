@@ -17,7 +17,7 @@ format:
     embed-resources: false
     toc: true
     toc-location: left
-    toc-title: Kde už jsme byli
+    toc-title: Kde už jsme všude byli
     toc-expand: 2
     number-sections: true
     number-depth: 3
