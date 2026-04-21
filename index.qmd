@@ -1,6 +1,13 @@
 ---
 title: "Náš turistický deník"
 subtitle: ""
+language: 
+  title-block-author-plural: "Autoři" # 
+  title-block-published: "Datum"
+author: 
+  - name: "Tomáš Pompa"
+  - name: "Michaela Marčeková"
+date: today
 lightbox:
   match: auto
   effect: fade
@@ -12,13 +19,13 @@ format:
     page-layout: full
     grid:
       sidebar-width: 300px
-      body-width: 1000px
+      body-width: 1400px
       margin-width: 50px
     embed-resources: false
     toc: true
     toc-location: left
-    toc-title: Kde už jsme všude byli
-    toc-expand: 2
+    toc-title: Kde už jsme byli
+    toc-expand: 3
     number-sections: true
     number-depth: 3
     # html-math-method: katex
@@ -46,7 +53,7 @@ knitr::opts_chunk$set(
   warning = FALSE, 
   message = FALSE,
   fig.width = 8, 
-  fig.height = 7, 
+  fig.height = 10, 
   fig.align = 'center'
 )
 ```
@@ -83,7 +90,18 @@ ikony <- awesomeIcons(
 )
 ```
 
-# Mapa
+---
+
+> Tuto stránku jsme vytvořili jako seznam navštívených míst. Kromě seznamu jsme přidali vlastní dojmy a pro nás důležité poznámky, které by se mohly hodit do budoucna.
+
+# Mapa {.unnumbered}
+
+Pro lepší orientaci jsou místa vyznačena na mapě. Zvolili jsme barevně odlišené vlaječky:
+
+- [**ferrata**]{style="color: green;"},
+- [**vrchol**]{style="color: red;"},
+- [**horská chata**]{style="color: blue;"},
+- [**kemp**]{style="color: orange;"}.
 
 ```{r}
 #| message: false
@@ -98,7 +116,7 @@ leaflet(adventures[!is.na(adventures$typ), ]) %>%
     icon = ikony,
     popup = ~paste0(
       "<b>", nazev, "</b><i>  (", typ, ")</i><br>", datum, "<br>",
-      popis_kratky, "<br>")
+      popis_kratky, " <br>")
   ) %>% 
     addLegend(
     position = "bottomright",
@@ -109,6 +127,76 @@ leaflet(adventures[!is.na(adventures$typ), ]) %>%
   )
 ```
 
+# Seznamy {.unnumbered}
+
+Pro lepší orientaci lze využít seznamy níže. Jsou vyfiltrované podle daného typu místa a tabulky jsou seřazené abecedně.
+
+::: panel-tabset
+## [**Ferraty**]{style="color: green;"}
+
+```{r}
+#| echo: false
+adventures %>% 
+  filter(typ == "ferrata") %>% 
+  mutate(link = paste0("@sec-place", X)) %>% 
+  dplyr::select(nazev, link, datum, popis_kratky) %>% 
+  arrange(nazev) %>% 
+  # mutate(
+  #   linkA = stringr::str_replace(link, "@(sec-place(\\d+))", "[Place \\2](#\\1)"),
+  #   clickable_section = sprintf("[%s](#%s)", link, sub("@", "", link))
+  # ) %>% 
+  knitr::kable(col.names = c("Název", "Odkaz na sekci", "Datum návštěvy", "Krátký popis místa"))
+```
+
+## [**Vrcholy**]{style="color: red;"}
+
+```{r}
+#| echo: false
+adventures %>% 
+  filter(typ == "peak") %>% 
+  mutate(link = paste0("@sec-place", X)) %>% 
+  dplyr::select(nazev, link, datum, popis_kratky) %>% 
+  arrange(nazev) %>% 
+  # mutate(
+  #   linkA = stringr::str_replace(link, "@(sec-place(\\d+))", "[Place \\2](#\\1)"),
+  #   clickable_section = sprintf("[%s](#%s)", link, sub("@", "", link))
+  # ) %>% 
+  knitr::kable(col.names = c("Název", "Odkaz na sekci", "Datum návštěvy", "Krátký popis místa"))
+```
+
+## [**Horské chaty**]{style="color: blue;"}
+
+```{r}
+#| echo: false
+adventures %>% 
+  filter(typ == "hut") %>% 
+  mutate(link = paste0("@sec-place", X)) %>% 
+  dplyr::select(nazev, link, datum, popis_kratky) %>% 
+  arrange(nazev) %>% 
+  # mutate(
+  #   linkA = stringr::str_replace(link, "@(sec-place(\\d+))", "[Place \\2](#\\1)"),
+  #   clickable_section = sprintf("[%s](#%s)", link, sub("@", "", link))
+  # ) %>% 
+  knitr::kable(col.names = c("Název", "Odkaz na sekci", "Datum návštěvy", "Krátký popis místa"))
+```
+
+## [**Kempy**]{style="color: orange;"}
+
+```{r}
+#| echo: false
+adventures %>% 
+  filter(typ == "camp") %>% 
+  mutate(link = paste0("@sec-place", X)) %>% 
+  dplyr::select(nazev, link, datum, popis_kratky) %>% 
+  arrange(nazev) %>% 
+  # mutate(
+  #   linkA = stringr::str_replace(link, "@(sec-place(\\d+))", "[Place \\2](#\\1)"),
+  #   clickable_section = sprintf("[%s](#%s)", link, sub("@", "", link))
+  # ) %>% 
+  knitr::kable(col.names = c("Název", "Odkaz na sekci", "Datum návštěvy", "Krátký popis místa"))
+```
+:::
+
 # Ferraty
 
 ```{r}
@@ -118,7 +206,9 @@ ferrata_ids <- adventures %>%
   filter(typ == "ferrata") %>% 
   select(X) %>% c() %>% unlist()
 for(id in ferrata_ids) {
-  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+  cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
+             "*Datum*: ", adventures[id, "datum"], "<br>",
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
              adventures[id, "popis_dlouhy"], "\n\n"))
   if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
@@ -134,7 +224,9 @@ peak_ids <- adventures %>%
   filter(typ == "peak") %>% 
   select(X) %>% c() %>% unlist()
 for(id in peak_ids) {
-  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+  cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
+             "*Datum*: ", adventures[id, "datum"], "<br>",
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
              adventures[id, "popis_dlouhy"], "\n\n"))
   if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
@@ -151,7 +243,9 @@ huts_ids <- adventures %>%
   select(X) %>% c() %>% unlist()
 
 for(id in huts_ids) {
-  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+  cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
+             "*Datum*: ", adventures[id, "datum"], "<br>",
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
              adventures[id, "popis_dlouhy"], "\n\n"))
   if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
@@ -168,7 +262,9 @@ camp_ids <- adventures %>%
   select(X) %>% c() %>% unlist()
 
 for(id in camp_ids) {
-  cat(paste0("## ", adventures[id, "nazev"], "\n\n",
+  cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
+             "*Datum*: ", adventures[id, "datum"], "<br>",
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
              adventures[id, "popis_dlouhy"], "\n\n"))
   if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}

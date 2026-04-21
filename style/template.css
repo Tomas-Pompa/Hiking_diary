@@ -30,13 +30,28 @@ h1, h2, h3 {
     text-transform: none;
 }
 
-h1, h2 {
+h1 {
   text-align: center;
+}
+
+h2 {
+  text-align: left;
 }
 
 p {
     font-size: 16px; /* Adjust paragraph font size */
 }
+
+/* Set bullet points (unordered lists) font size */
+ul {
+  font-size: 15px;   
+}
+
+/* Optional: for ordered lists */
+ol {
+  font-size: 15px;
+}
+
 
 /* Change the background color of the table of contents */
 #quarto-sidebar-toc-left {
@@ -55,6 +70,10 @@ p {
 
 .red {
   color: #770000;
+}
+
+.myred {
+  color: #990920;
 }
 
 .myblue {
@@ -136,7 +155,7 @@ p.subtitle {
 }
 
 .theorybox-header {
-  //margin-top: 0.5em;
+  margin-top: 0.5em;
   margin-bottom: 0em;
   border-bottom: none;
   border-radius: 3px;
