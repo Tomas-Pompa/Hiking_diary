@@ -208,9 +208,15 @@ ferrata_ids <- adventures %>%
 for(id in ferrata_ids) {
   cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
              "*Datum*: ", adventures[id, "datum"], "<br>",
-             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
-             adventures[id, "popis_dlouhy"], "\n\n"))
-  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {
+    cat(paste0('::: {.columns}\n\n::: {.column width="25%"}\n\n',
+               "![](", images_path, adventures[id, "foto1"], "){width=90%}\n\n:::\n\n",
+               '::: {.column width="75%"}\n\n', 
+               adventures[id, "popis_dlouhy"], "\n\n:::\n\n:::\n\n"))
+  } else {
+      cat(paste0(adventures[id, "popis_dlouhy"], "\n\n"))
+    }
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
 }
 ```
@@ -226,9 +232,15 @@ peak_ids <- adventures %>%
 for(id in peak_ids) {
   cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
              "*Datum*: ", adventures[id, "datum"], "<br>",
-             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
-             adventures[id, "popis_dlouhy"], "\n\n"))
-  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {
+    cat(paste0('::: {.columns}\n\n::: {.column width="25%"}\n\n',
+               "![](", images_path, adventures[id, "foto1"], "){width=90%}\n\n:::\n\n",
+               '::: {.column width="75%"}\n\n', 
+               adventures[id, "popis_dlouhy"], "\n\n:::\n\n:::\n\n"))
+  } else {
+      cat(paste0(adventures[id, "popis_dlouhy"], "\n\n"))
+    }
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
 }
 ```
@@ -245,9 +257,15 @@ huts_ids <- adventures %>%
 for(id in huts_ids) {
   cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
              "*Datum*: ", adventures[id, "datum"], "<br>",
-             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
-             adventures[id, "popis_dlouhy"], "\n\n"))
-  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {
+    cat(paste0('::: {.columns}\n\n::: {.column width="25%"}\n\n',
+               "![](", images_path, adventures[id, "foto1"], "){width=90%}\n\n:::\n\n",
+               '::: {.column width="75%"}\n\n', 
+               adventures[id, "popis_dlouhy"], "\n\n:::\n\n:::\n\n"))
+  } else {
+      cat(paste0(adventures[id, "popis_dlouhy"], "\n\n"))
+    }
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
 }
 ```
@@ -264,9 +282,15 @@ camp_ids <- adventures %>%
 for(id in camp_ids) {
   cat(paste0("## ", adventures[id, "nazev"], " {#sec-place", id, "}\n\n",
              "*Datum*: ", adventures[id, "datum"], "<br>",
-             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n",
-             adventures[id, "popis_dlouhy"], "\n\n"))
-  if (!is.na(adventures[id, "foto1"])) {cat(paste0("![](", images_path, adventures[id, "foto1"], "){width=20%}\n\n"))}
+             "*Krátký popis*: ", adventures[id, "popis_kratky"], "\n\n"))
+  if (!is.na(adventures[id, "foto1"])) {
+    cat(paste0('::: {.columns}\n\n::: {.column width="25%"}\n\n',
+               "![](", images_path, adventures[id, "foto1"], "){width=90%}\n\n:::\n\n",
+               '::: {.column width="75%"}\n\n', 
+               adventures[id, "popis_dlouhy"], "\n\n:::\n\n:::\n\n"))
+  } else {
+      cat(paste0(adventures[id, "popis_dlouhy"], "\n\n"))
+    }
   if (!is.na(adventures[id, "foto2"])) {cat(paste0("![](", images_path, adventures[id, "foto2"], "){width=20%}\n\n"))}
 }
 ```
