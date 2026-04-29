@@ -70,10 +70,16 @@ library(dplyr)
 images_path <- "https://raw.githubusercontent.com/Tomas-Pompa/Hiking_diary/refs/heads/main/Photos/"
 # "C:/Users/Tom/Desktop/Hiking_diary/fotky/"
 
+is_missing <- function(x) is.na(x) | x == ""
+
 # Data of visited places
 adventures <- read.csv("Hiking_diary.csv") 
 adventures <- adventures %>% 
-  mutate(X = 1:nrow(adventures))
+  filter(!is_missing(typ)) %>% 
+  mutate(datum_new = as.Date(datum, format = "%d.%m.%Y")) %>% 
+  arrange(datum_new) %>% 
+  mutate(X = 1:n()) %>% 
+  select(-datum_new)
 
 # Icons according to the type
 ikony <- awesomeIcons(
