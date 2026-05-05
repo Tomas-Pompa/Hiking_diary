@@ -1,10 +1,10 @@
 nazev,typ,datum,popis_kratky,popis_dlouhy,lat,lon,foto1,foto2
-Ferraty u Vírské přehrady,ferrata,22.10.2023,Tři kratší ferraty u přehrady Vír,,49.5585189,16.3090964,Ferrata/prehrada_Vir.jpeg,NA
-Velká Dohoda,ferrata,29.10.2023,Bývalý lom přestavěný na ferraty,,49.3957231,16.7770075,Ferrata/Velka_Dohoda.jpeg,NA
-Skalka,ferrata,21.06.2024,Ferratový park na celý den,,48.7412711,18.9837931,Ferrata/Skalka.jpeg,NA
-Chata pod Chlebom,hut,07.08.2024,Moderní chata na Malé Fatře,,49.1811153,19.0492106,Hut/Pod_Chlebom.jpeg,NA
-Zoborské ferraty,ferrata,28.08.2024,Ferraty pod Zoborom,,48.3424108,18.1056544,Ferrata/Zobor.jpeg,NA
-Ferraty Zvolen,ferrata,07.06.2025,Jednoduché ferraty u Zvolena,,48.5539833,19.0835217,Ferrata/Zvolen.jpeg,NA
+Ferraty u Vírské přehrady,ferrata,22.10.2023,Tři kratší ferraty u přehrady Vír,"Kratší ferraty, výbava se dá půjčit kousek od začátku ferraty nalevo od přehrady. Ferraty jsou nalevo I napravo od hráze, dá se udělat pěkné kolečko a projít všechny.",49.5585189,16.3090964,Ferrata/prehrada_Vir.jpeg,NA
+Velká Dohoda,ferrata,29.10.2023,Bývalý lom přestavěný na ferraty,"Velmi dobrý cvičný ferratový park v Moravském krasu. Příjezdová cesta je rozbitá, parkování bez problému. Možnost zapůjčení vybavení, platí se za vstup na ferraty na celý den. Ferraty jsou krátké a různých obtížností, také dlouhý lanový most a další atrakce pro děti.",49.3957231,16.7770075,Ferrata/Velka_Dohoda.jpeg,NA
+Skalka,ferrata,21.06.2024,Ferratový park na celý den,"Mnoho ferrat rozdělených na dvě oblasti. Různé náročnosti, zábavné, parkování za poplatek, možnost půjčení vybavení.",48.7412711,18.9837931,Ferrata/Skalka.jpeg,NA
+Chata pod Chlebom,hut,07.08.2024,Moderní chata na Malé Fatře,"Chata na Malé Fatře, možnost sprchy zdarma. Společná ložnice velká a zrekontruovaná, oddělená příčkami po dvou.",49.1811153,19.0492106,Hut/Pod_Chlebom.jpeg,NA
+Zoborské ferraty,ferrata,28.08.2024,Ferraty pod Zoborom,Kratší ferraty vhodné pro vyzkoušení nebo rozlezení. Nástup hodně do kopce.,48.3424108,18.1056544,Ferrata/Zobor.jpeg,NA
+Ferraty Zvolen,ferrata,07.06.2025,Jednoduché ferraty u Zvolena,"Větší množství kratších ferrat převážně v lese. Nástup relativně kousek, ferraty jsou dost u sebe, jednoduché, velké množství kramlí.",48.5539833,19.0835217,Ferrata/Zvolen.jpeg,NA
 ,,,,,,,,NA
 ,,,,,,,,NA
 ,,,,,,,,NA
@@ -12,67 +12,67 @@ Ferraty Zvolen,ferrata,07.06.2025,Jednoduché ferraty u Zvolena,,48.5539833,19.0
 ,,,,,,,,NA
 ,,,,,,,,NA
 Grossglockner,,,,,,,,NA
-Erzherzog-Johann-Hütte ,hut,11.08.2024,Chata pod Grossglocknerem,,47.0700742,12.7015797,Hut/Adlersruhe.jpeg,NA
-Grossglockner,peak,12.08.2024,Nejvyšší vrchol Rakouska,,47.0745464,12.6938825,Peak/Grossglockner.jpeg,NA
+Erzherzog-Johann-Hütte ,hut,11.08.2024,Chata pod Grossglocknerem,"Krásná chata ve výšce okolo 3300 mnm, přístup přes ledovec a ferratu. Možnost nabíjení bez problému, pitná voda není. Výborné večeře I vegetariánské, krásný výhled na Grossglockner I okolní hory.",47.0700742,12.7015797,Hut/Adlersruhe.jpeg,NA
+Grossglockner,peak,12.08.2024,,"Nádherná tůra s horským vůdcem, nutnost pohybu po ledovci a jednodušší lezení. Od chaty už relativně kousek (cca do 2 hodin). Nádherné výhledy.",47.0745464,12.6938825,Peak/Grossglockner.jpeg,NA
 ,,,,,,,,NA
 Mondsee a Wolfgangsee,,,,,,,,NA
-Drachenwand Klettersteig,ferrata,30.05.2025,Krásná ferrata nad Mondsee,,47.8124733,13.3563353,Ferrata/Drachenwand.jpg,NA
-Camp MondSeeLand,camp,30.05.2025,Klidný kemp nad Mondsee,,47.8669506,13.3071389,NA,NA
-"Mein Land, Dein Land Klettersteig",ferrata,01.06.2025,Různorodá ferrata,,47.6630072,13.6401292,Ferrata/MeinLand-DeinLand.jpg,NA
-Leadership,ferrata,01.06.2025,Ferrata vedoucí na vrchol,,47.6596492,13.6389178,Ferrata/Leadership.jpg,NA
-Paradiescamping Wolfgangsee Birkenstrand ,camp,01.06.2025,Pěkný kemp u Wolfgangsee,,47.7392542,13.4011319,NA,NA
-Zwölferhorn ,peak,02.06.2025,Vrchol s lanovkou a výhledy,,47.7425103,13.3514289,Peak/Zwölferhorn.jpeg,NA
+Drachenwand Klettersteig,ferrata,30.05.2025,Krásná ferrata nad Mondsee,"Poměrně náročná a dost exponovaná ferrata, nejtěžší část se dá obejít přes lanový most. Nástup není dlouhý, ale sestup je náročný a vysilující. Po konci ferraty ještě kousek k vrcholovému kříži. ",47.8124733,13.3563353,Ferrata/Drachenwand.jpg,NA
+Camp MondSeeLand,camp,30.05.2025,Klidný kemp nad Mondsee,"Pěkný kemp s bazénem a dětským hřištěm. Velmi dobře hodnocený, dobrá dostupnost. Auto jsme museli mít venku mimo stanové místo.",47.8669506,13.3071389,NA,NA
+"Mein Land, Dein Land Klettersteig",ferrata,01.06.2025,Různorodá ferrata,"Krásná ferrata, která začíná v puklině ve skále, trochu náročnější ji najít. Na začátku je mokro, skála klouže, po překonání mostíku se leze často traverz. Ferrata není dlouhá, ale dala nám zabrat.",47.6630072,13.6401292,Ferrata/MeinLand-DeinLand.jpg,NA
+Leadership,ferrata,01.06.2025,Ferrata vedoucí na vrchol,"Pěkná ferrata, která končí téměř na vrcholu, ze kterého je krásný výhled na Dachstein. Přístup k ferratě trochu náročný lesní cestou, ale dalo se to najít v pohodě. Kousek vede v puklině ve skále, pozor na větší batoh.",47.6596492,13.6389178,Ferrata/Leadership.jpg,NA
+Paradiescamping Wolfgangsee Birkenstrand ,camp,01.06.2025,Pěkný kemp u Wolfgangsee,"Krásný moderní kemp u Wolfgangsee, s přístupem k jezeru a molem s možností koupání. V kempu je na recepci kavárna. Auto bez problému u stanu.",47.7392542,13.4011319,NA,NA
+Zwölferhorn ,peak,02.06.2025,Vrchol s lanovkou a výhledy,"Oblíbený vrchol nad Wolfgangsee dostupný lanovkou (využili jsme pro cestu dolů). Cesta nahoru byla po hřebeni krásným, ale náročným stoupáním. ",47.7425103,13.3514289,Peak/Zwölferhorn.jpeg,NA
 ,,,,,,,,NA
 Slovinsko – 7 jezer,,,,,,,,NA
-Koča pri Triglavskih jezerih ,hut,01.07.2025,Chata u jezer,,46.3186819,13.7790358,Hut/Koca_triglavske_jezera.jpeg,NA
-Triglavski dom na Kredarici ,hut,02.07.2025,Chata pod Triglavem,,46.378945,13.8487875,NA,NA
-Zasavska koča na Prehodavcih,hut,03.07.2025,Chata nad jezerami,,46.3585461,13.7922897,Hut/Prehodavcih.jpeg,NA
-Kanjavec,peak,02.07.2025,Vrchol naproti Triglavu,,46.3601083,13.8098203,Peak/Kanjavec.jpeg,NA
-Camp Danica ,camp,30.06.2025,Kemp v Bohinjske Bistrici,,46.2750928,13.9477675,Camp/Danica_camp.jpeg,NA
+Koča pri Triglavskih jezerih ,hut,01.07.2025,Chata u jezer,"Stará chata, kde jsme si mohli napustit vodu z pramene. Nabíjení na pokojích, snídaně od sedmi, slabý signál. Platba hotově.",46.3186819,13.7790358,Hut/Koca_triglavske_jezera.jpeg,NA
+Triglavski dom na Kredarici ,hut,02.07.2025,Chata pod Triglavem,"Velká chata kousek pod Triglavem, není pitná voda. Snídaně je vaječina s pečivem a čaj. ",46.378945,13.8487875,NA,NA
+Zasavska koča na Prehodavcih,hut,03.07.2025,Chata nad jezerami,"Krásná stará malá chata na konci doliny triglavských jezer. Možnost doplnit vodu z pramene asi 10 minut od chaty (my jsme pramen nenašli). Spaní na poschoďových postelích. Špatný signál, platba pouze hotově.",46.3585461,13.7922897,Hut/Prehodavcih.jpeg,NA
+Kanjavec,peak,02.07.2025,Vrchol naproti Triglavu,"Výstup na vrchol náročný, ale technicky horší sestup směrem na Dolíč (pár lan). Pěkný výhled na okolí.",46.3601083,13.8098203,Peak/Kanjavec.jpeg,NA
+Camp Danica ,camp,30.06.2025,Kemp v Bohinjske Bistrici,Velký kemp s přístupem k řece. Moderní toalety a kousek od kempu super pekárna s burkem a dalším pečivem. Auto u stanu.,46.2750928,13.9477675,Camp/Danica_camp.jpeg,NA
 ,,,,,,,,NA
 Lienzer Dolomiten,,,,,,,,NA
-Panorama Klettersteig,ferrata,15.07.2025,Dlouhá hřebenová ferrata,Cely den,46.7691483,12.8114772,Ferrata/Panorama.JPEG,NA
-Karlsbader Hütte,hut,14.07.2025,Chata u jezera,"Nutna polopenze, pitna voda",46.7630392,12.8011314,Hut/Karlsbaderhutte.jpg,NA
-Seekofel Klettersteig,ferrata,17.07.2025,Delší vrcholová ferrata,,46.7560578,12.8001089,Ferrata/Seekofel.JPEG,NA
-Piccola Ferrata ,ferrata,14.07.2025,Krátká ferrata při výstupu na chatu,,46.7748861,12.7983058,Ferrata/Piccola.JPEG,NA
-Galitzenklammklettersteig ,ferrata,18.07.2025,Vícero ferrat a dětský vodní svět,,46.7973397,12.7453842,Ferrata/Galitzenklammklettersteig.JPEG,NA
-Comfort Camping Falken ,camp,17.07.2025,Pěkný kemp v Lienzu,,46.8227125,12.7714497,NA,NA
-Natur- & Familiencamping Oberdrauburg ,camp,18.07.2025,Krásný kemp s bazénem,,46.7409156,12.9715378,NA,NA
-Camping Seewiese ,camp,13.07.2025,Kemp u jezera ,,46.8065872,12.8020236,Camp/Seewiese_camp.jpg,NA
+Panorama Klettersteig,ferrata,15.07.2025,Dlouhá hřebenová ferrata,"Nádherná hřebenová ferrata, která vede celou dobu nad 2500 metrů a vrcholky sahají k téměř 2800 mnm. Lepší je jít zleva doprava (končit na Grosse Sandspitze). Ferrata není technicky náročná, jeden úsek C/D je vertikální 3 metry s kramlemi, pár úseků C, ale také nejsou extra náročné. Naopak je ferrata dlouhá a náročná na fyzičku, nástup cca hodinu od chaty do kopce a po nejištěném terénu, sestup náročný a dlouhý, místy jištěný, místy nejištěný a nutnost jistého kroku. Potřeba hodně vody a jídlo s sebou. Z ferraty jsou psané nouzové sestupy, ale nejsou nijak bezpečné.",46.7691483,12.8114772,Ferrata/Panorama.JPEG,NA
+Karlsbader Hütte,hut,14.07.2025,Chata u jezera,"Krásná chata u jezera, k ubytování nutná polopenze, která je ale bohatá. Snídaně formou švédských stolů a večeře je tříchodová (polévka, hlavní a salát), člověk si může říct o přidání. Voda je pitná (ale mají napsané že není). Zásuvky pouze v jídelně nebo na chodbách. Platba pouze hotově, signál byl OK. Přístup k chatě buď po zpevněné cestě, po které jezdí I auta, nebo přes ferratu, která je jednoduchá a celá cesta vede krásným prostředím. Zpevněná cesta dobrá pro sestup.",46.7630392,12.8011314,Hut/Karlsbaderhutte.jpg,NA
+Seekofel Klettersteig,ferrata,17.07.2025,Delší vrcholová ferrata,"Velmi pěkná ferrata téměř na vrchol Seekofel. Začíná v sedle nad chatou, nabízí dvě varianty – těžší úsek C je dost exponovaný a jít ho když už tak nahoru, lehčí je v pohodě I dolů. Po konci Ferraty je to ke kříži ještě kus po nezajištěném hřebeni.",46.7560578,12.8001089,Ferrata/Seekofel.JPEG,NA
+Piccola Ferrata ,ferrata,14.07.2025,Krátká ferrata při výstupu na chatu,"Krátká a jednoduchá ferrata při krásné výstupové cestě na chatu Karlsbaderhuette. Určitě lepší zvolit ferratu než vedlejší stoupací cestičku v suťovisku. Nejtěžší část ferraty je na konci při krátkém sestupu dolů do sedla, ale nic náročného.",46.7748861,12.7983058,Ferrata/Piccola.JPEG,NA
+Galitzenklammklettersteig ,ferrata,18.07.2025,Vícero ferrat a dětský vodní svět,"Zpoplatněné ferraty včetně vstupu do klammu, parkoviště zdarma. Ferraty různých náročností, šli jsme dvě – Galitzenklamm obtížnosti C (docela náročná, hokrá skála, končí lanovým mostem) a Familien obtížnosti B/C (poměrně jednoduchá). Součástí dětský vodní svět a odpočinkové lavičky a lehátka.",46.7973397,12.7453842,Ferrata/Galitzenklammklettersteig.JPEG,NA
+Comfort Camping Falken ,camp,17.07.2025,Pěkný kemp v Lienzu,"Pěkný kemp s malým obchůdkem, krásné moderní sprchy a záchody. Pozor na zavlažovací systém podél plotu, postříkalo nám to stan a věci. Auto u stanu.¨",46.8227125,12.7714497,NA,NA
+Natur- & Familiencamping Oberdrauburg ,camp,18.07.2025,Krásný kemp s bazénem,"Velký kemp  s velkým bazénem v ceně, parkování auta u stanu, velké místo pro stan. V nedalekém městě krátké ferraty za kostelem.",46.7409156,12.9715378,NA,NA
+Camping Seewiese ,camp,13.07.2025,Kemp u jezera ,"Kemp u jezera, k ubytování jsme dostali vstup do areálu jezera s možností koupání. Jezero se dá celé obejít, pěkná procházka. V okolí není žádný obchod, záchody OK, kemp je ve svahu, auto jsme měli hned u stanu.",46.8065872,12.8020236,Camp/Seewiese_camp.jpg,NA
 ,,,,,,, ,NA
 Keisergebirge,,,,,,,,NA
-Stripsenjochhaus,hut,18.08.2025,Horská chata v Kaisergebirge,"Horší snídaně, pitná voda, krásná poloha.",47.5771275,12.3105447,Hut/StripsenjochHaus.jpeg,NA
-Grutten Hütte,hut,17.08.2025,Horská chata v Kaisergebirge,"Neměli jsme jídlo, jde horské jídlo, voda za 2 eura celý camel bag",47.5535658,12.3110619,Hut/GruttenHutte.jpeg,NA
-Ellmauer Halt,peak,18.08.2025,Nejvyšší vrchol Kaisergebirge,Super ferrata na vrchol,47.5616378,12.3025294,Peak/EllmauerHalt.jpeg,NA
-Gamsängersteig,ferrata,18.08.2025,Ferrata na Ellmauer Halt,,47.5602608,12.3041683,Ferrata/Gamsängersteig.JPEG,NA
-Ellmauer Tor ,peak,19.08.2025,Sedlo v Keisergebirge,,47.5659369,12.3207667,Peak/EllmauerTor.jpeg,NA
-Jubiläumssteig,ferrata,19.08.2025,Ferrata k chatě Grutenhutte,,47.5560872,12.3151858,Ferrata/Jubiläumssteig.JPEG,NA
-Michelnhof,camp,19.08.2025,Kemp u St. Johan in Tirol,,47.510985,12.4091633,Camp/Michelnhof.jpeg,NA
+Stripsenjochhaus,hut,18.08.2025,Horská chata v Kaisergebirge,"Krásná starší chata s velkým lagerem, ketrý je rozdělený do místností po cca 10, dřevěný. Věci se nosí v plastových boxech, možnost pitné vody zdarma. Zásuvky jsou v jídelně I v lageru. Večeře byla formou “vyber si co chceš ze stálé nabídky”, plus polévka a desert. Snídaně horší, konvička káva, nebo čaje, plus pečivo s něčím. Milá obsluha. Platba v hotovosti. Kousek od chaty ferraty, které jsme ale nezvládli. Pěkný výhled a nádherná poloha chaty.",47.5771275,12.3105447,Hut/StripsenjochHaus.jpeg,NA
+Grutten Hütte,hut,17.08.2025,Horská chata v Kaisergebirge,"Moderní a velmi oblíbená chata, nabíjení pouze v jídelně nebo na chodbě. Věci v plastových boxech, liner do mikrovlnky. Lager velký. Signál v pohodě. Neměli jsme jídlo, ale jde horské jídlo, pitná voda není, voda za 2 eura celý camel bag. Polopenze vypadala super, večeře velká, hromada salátů. Snídaně formou švédských stolů, velký výběr, dost tekutin. Platili jsme příplatek za využívání chaty, neměli jsme totiž žádné jídlo.",47.5535658,12.3110619,Hut/GruttenHutte.jpeg,NA
+Ellmauer Halt,peak,18.08.2025,Nejvyšší vrchol Kaisergebirge,"Krásný vrchol s otravným ptákem. Málo místa na vrcholu, pěkná ferrata na vrchol. Nádherné výhledy do okolí.",47.5616378,12.3025294,Peak/EllmauerHalt.jpeg,NA
+Gamsängersteig,ferrata,18.08.2025,Ferrata na Ellmauer Halt,"Nádherná ferrata, která byla jednoduchá. Přístup není obtížný, ale vede ke konci po nejištěném chodníku nad velkým srázem. Možnost dvou tras/odboček, po žebříku jsme šli nahoru. Úžasný bivak těsně pod vrcholem. ",47.5602608,12.3041683,Ferrata/Gamsängersteig.JPEG,NA
+Ellmauer Tor ,peak,19.08.2025,Sedlo v Keisergebirge,"Velmi oblíbené místo, hodně lidí. Cesta od Stripsenjochhausu velmi zábavná a zajímavá, jištěný chodník, jednoduchá ferrata, ale kvůli padajícímu kamení nutná přilba a jištění. Cesta dolů už je hlavně suťoviskem.",47.5659369,12.3207667,Peak/EllmauerTor.jpeg,NA
+Jubiläumssteig,ferrata,19.08.2025,Ferrata k chatě Grutenhutte,"Jednoduchá ferrata, spíše zajištěný chodník, ale výbava potřeba. Chodí se oběma směry, potřeba se vyhýbat. Krásné výhledy a skalní útvary kolem.",47.5560872,12.3151858,Ferrata/Jubiläumssteig.JPEG,NA
+Michelnhof,camp,19.08.2025,Kemp u St. Johan in Tirol,"Pěkný kemp s nádherným výhledem na Kaisergebirge. Snídali jsme v kabince od lanovky. Auto jsme měli hned u stanu, sociálky OK.",47.510985,12.4091633,Camp/Michelnhof.jpeg,NA
 ,,,,,,,,NA
 Gesause,,,,,,,,NA
-Geo-Steig-Klettersteig Silberreith,ferrata,27.08.2025,Ferrata u Johnsbachu,"Jednoduchá a zábavná ferrata, zvládli jsme ji za 1,5 hodiny klidným tempem nahoru až k malému křížku nahoře. Jde se téměř celou dobu po ostrém hřebeni. Pár míst exponovaných, jinak lezecky jednoduché. Dolů by se hodily tyčky. Parkování zdarma v centru Johnsbachu.",47.5444556,14.5881939,Ferrata/Silberreith.JPEG,NA
-Hess Hütte,hut,24.08.2025,Horská chata pod Hochtorem,"Pitná voda, horské jídlo OK, snídaně super.",47.5613517,14.6521342,Hut/HessHutte.jpeg,NA
-Hochtor,peak,25.08.2025,Nejvyšší vrchol Gesause,"Helma potřeba, ferratové vybavení ne, pěkně zajištěné, krásný hřeben.",47.5618475,14.6326058,Peak/Hochtor.JPG,NA
-Hochzinödl ,peak,25.08.2025,Vrchol naproti Hochtoru,,47.5655025,14.6661039,Peak/Hochzinodl.jpeg,NA
-Wasserfallweg,ferrata,24.08.2025,Zajištěná cesta k Hesshutte,,47.5777072,14.6576983,Ferrata/Wasserfallweg.JPEG,NA
-Forstgarten,camp,26.08.2025,Krásný kemp pod Hochtorem,"Klidný kemp kousek od řeky. Výhradně pro stany, velký plac bez míst. Součástí volně přístupná kuchyňka s lednicí, pěkné nové WC i sprchy. Krásný výhled na Hochtor a Planspitze. ",47.5894578,14.6280747,Camp/Forstgarten.jpeg,NA
+Geo-Steig-Klettersteig Silberreith,ferrata,27.08.2025,Ferrata u Johnsbachu,"Jednoduchá a zábavná ferrata, zvládli jsme ji za 1,5 hodiny klidným tempem nahoru až k malému křížku nahoře. Jde se téměř celou dobu po ostrém hřebeni. Pár míst exponovaných, jinak lezecky jednoduché. Dolů by se hodily tyčky. Parkování zdarma v centru Johnsbachu, případně přímo pod ferratou. Nástup krátký, do 5 minut od hlavní cesty.",47.5444556,14.5881939,Ferrata/Silberreith.JPEG,NA
+Hess Hütte,hut,24.08.2025,Horská chata pod Hochtorem,"Pěkná chata pod Hochtorem. Pitná voda zdarma, horské jídlo bylo k dispozici, večeři si ostatní až tak nechválili. Snídaně super, výborné muesli, vyjíčka apod. Nabíjení možné pouze u obsluhy, dobrovolný příspěvek za elektřinu. Platba v hotovosti. Záchody v pohodě, lager taky. ",47.5613517,14.6521342,Hut/HessHutte.jpeg,NA
+Hochtor,peak,25.08.2025,Nejvyšší vrchol Gesause,"Nádherný výstup, náročný a trochu nebezpečný, je potřeba mít jistý krok a dobré počasí. Helma byla potřeba, ferratové vybavení ne, pěkně zajištěné úseky ve strmých částech, poté krásný hřeben, který už je ale bez jištění. Celkově velmi technicky náročné, ale nádherné výhledy z vrcholu. Vrchol je široký, dá se odpočinout.",47.5618475,14.6326058,Peak/Hochtor.JPG,NA
+Hochzinödl ,peak,25.08.2025,Vrchol naproti Hochtoru,"Méně zajímavý vrchol, nenáročná túra technicky, fyzicky náročnější. Na vrcholu kříž a krásné výhledy na Hochtor. Cestou zpět (šli jsme kolečko, na vrchol prudce od chaty nahoru, z vrcholu pokračovat po hřebeni dolů) je louka se svištěmi.",47.5655025,14.6661039,Peak/Hochzinodl.jpeg,NA
+Wasserfallweg,ferrata,24.08.2025,Zajištěná cesta k Hesshutte,"Nfyzicky náročné stoupání kolem vodopádu a poté dolinou k Hesshuette. Polovina lidí šla bez jištění, ale lepší je mít alespoň helmu, celý set doporučujeme. Není to technicky náročné, ale místy dost exponované.",47.5777072,14.6576983,Ferrata/Wasserfallweg.JPEG,NA
+Forstgarten,camp,26.08.2025,Krásný kemp pod Hochtorem,"Klidný kemp kousek od řeky. Výhradně pro stany, velký plac bez míst. Součástí volně přístupná kuchyňka s lednicí, pěkné nové WC i sprchy. Krásný výhled na Hochtor a Planspitze. Venku lavičky a stoly. Auto jsme parkovali mimo stan před vjezdem do kempu.",47.5894578,14.6280747,Camp/Forstgarten.jpeg,NA
 ,,,,,,,,NA
 Tatry,,,,,,,,NA
-Rysy,peak,02.09.2025,Nejvyšší vrchol Polska,,49.1793186,20.0884636,Peak/Rysy.jpg,NA
-Kriváň,peak,13.09.2023,Náš první štít v Tatrách,,49.1628333,20.000045,Peak/Krivan.jpeg,NA
-Ďumbier,peak,10.08.2023,Nejvyšší vrchol Nízkých Tater,,48.9363994,19.6402664,Peak/Dumbier.jpg,NA
-Jahňací štít,peak,24.06.2024,Štít v Tatrách,,49.2196942,20.2081025,Peak/Jahnaci_stit.jpeg,NA
-Velká Svišťovka,peak,25.06.2024,Štít v Tatrách,,49.2049297,20.2370981,Peak/Velka_Svistovka.jpeg,NA
-Chata pri Zelenom plese,hut,24.06.2024,Chata Brnčálka,,49.2101314,20.221075,Hut/Brncalka.jpeg,NA
+Rysy,peak,02.09.2025,Nejvyšší vrchol Polska,"Náročný výstup, zejména s 25l bečkou kofoly na zádech. Chata byla plná, ke konci na vrcholu je potřeba použít ruce.",49.1793186,20.0884636,Peak/Rysy.jpg,NA
+Kriváň,peak,13.09.2023,Náš první štít v Tatrách,"Nádherná túra od Třech studniček a Jamské pleso, dolů po zelené. Zejména poslední metry zábavné lezecky, je potřeba použít ruce. Nádherné výhledy.",49.1628333,20.000045,Peak/Krivan.jpeg,NA
+Ďumbier,peak,10.08.2023,Nejvyšší vrchol Nízkých Tater,"V zimě I létě super, krásné výhledy na Vysoké Tatry.",48.9363994,19.6402664,Peak/Dumbier.jpg,NA
+Jahňací štít,peak,24.06.2024,Štít v Tatrách,"Od Brnčálky se to dá zvládnout za hodinu na vrchol. Troška řetězů a lezení po cestě, nic náročného. ",49.2196942,20.2081025,Peak/Jahnaci_stit.jpeg,NA
+Velká Svišťovka,peak,25.06.2024,Štít v Tatrách,"Pěkná trasa zejména od Brnčálky, na Skalnaté pleso už byla cesta jednodušší. ",49.2049297,20.2370981,Peak/Velka_Svistovka.jpeg,NA
+Chata pri Zelenom plese,hut,24.06.2024,Chata Brnčálka,"Krásná chata, nabíjení možné v jídelně, večeři si ostatní moc nechválili, snídaně super. ",49.2101314,20.221075,Hut/Brncalka.jpeg,NA
 ,,,,,,,NA,NA
 Rax and Hohe Wand,,,,,,,NA,NA
-Weichtalhaus,hut,30.04.2026,Chata u řeky Schwarza,"Pěkná menší chata, hned vedle cvičné ferraty. Parkoviště zdarma minutu od chaty. Zdarma sprchy a pitná voda. Spaní v lageru na poschoďových postelích, možnost nabít mobil. Malá lezecká stěna na chodbě. Snídaně vypadala dobře, švédský stůl.",47.7481819,15.7681608,Hut/Weichtalhaus.jpeg,NA
+Weichtalhaus,hut,30.04.2026,Chata u řeky Schwarza,"Pěkná menší chata, hned vedle cvičné ferraty. Parkoviště zdarma minutu od chaty. Velmi špatný signál, ale mají wifi. Zdarma sprchy a pitná voda. Spaní v lageru na poschoďových postelích, možnost nabít mobil. Malá lezecká stěna na chodbě. Snídaně vypadala dobře, švédský stůl.",47.7481819,15.7681608,Hut/Weichtalhaus.jpeg,NA
 Weichtalhaus Klettergarten ,ferrata,30.04.2026,Krátké ferraty u Weichtalhausu ,"Cvičné ferraty hned u chaty a parkoviště, různé obtížnosti. Velmi pěkné jsou ferraty u řeky, jsou krátké, ale poměrně obtížné (hlavně horní C). Ferraty nad chatou také krátké, ale na dvě až tři hodiny zabaví.",47.7485206,15.7679875,Ferrata/Weichtalhaus.jpeg,NA
 Haidsteig,ferrata,01.05.2026,Krásná horská ferrata,"Nádherná dlouhá ferrata téměř na vrchol v Raxu. Nástup v pohodě krásným lesem a kousek suťoviskem. Mnoho místa na odpočinek, jednotlivé části jsou přerušeny částmi bez lana s možností odpočinku. Místa C/D nejsou až tak obtížná, zejména druhé v komíně bylo OK (za sucha). Od Madonny lehké, ale ještě poměrně dlouhé. Exponované hlavně na začátku, nejnepříjemnější byly žebříky na začátku. Skála velmi dobře drží.",47.6995425,15.7355686,Ferrata/Haid.jpeg,NA
 Bismarcksteig,ferrata,01.05.2026,Lehký zajištěný traverz,"Spíše zajištěný chodník, ale výbava určitě nutná. Začátek a konec není jištěný, trochu nebezpečné. Ferrata není nijak extra zajímavá, příště radši přes vrchol.",47.6938733,15.7073781,Ferrata/Bismarcksteig.jpeg,NA
-Karl-Ludwig-Haus,hut,01.05.2026,Chata v pohoří Rax,"Velmi pěkná a velká chata, kousek od ní kostelík. Parádní snídaně formou švédských stolů, topinky, káva, čaj, hromada tekutin, sýry a vajíčka na tvrdo. Není pitná voda a nabíjení pouze v hlavní místnosti. Spaní v staré části chaty, byla zima, ale v létě OK. ",47.6886108,15.7041372,Hut/KarlLudwigHaus.jpeg,NA
-Hubertushaus ,hut,02.05.2026,Krásná stará chata nad srázem,"Krásná útulná chata hned nad srázem v Hohe Wand. Málo míst na spaní, lager byl pro cca 10 osob, možnost nabíjení v lageru. Voda není pitná, velmi dobře vaří a nabízejí zajímavé pokrmy (Chilli sin carne, linsen mit knodel). Snídani si objedná každý co chce, vojíčka na různé způsoby, něco sladkého a káva. Chleba doplnili zdarma. Vajíčka za cca 6 EUR a káva/čaj za cca 4. Večer přišli kozorožci až skoro k chatě. Zaspali jsme východ slunce.",47.8118289,16.0251617,Hut/Hubertushaus.jpeg,NA
-Steirerspur,ferrata,02.05.2026,Krátké cvičné ferraty,"Krátké cvičné ferraty asi 5 minut od chaty, první C je kratší, ale zábavné, delší B/C jednoduché. Vyleze se asi minutu od chaty.",47.8114803,16.0262136,Ferrata/Steirerspur.jpg,NA
+Karl-Ludwig-Haus,hut,01.05.2026,Chata v pohoří Rax,"Velmi pěkná a velká chata, kousek od ní kostelík. Parádní snídaně formou švédských stolů, topinky, káva, čaj, hromada tekutin, sýry a vajíčka na tvrdo. Není pitná voda a nabíjení pouze v hlavní místnosti, signál OK a dá se platit kartou od 30 EUR. Spaní v staré části chaty, byla zima, ale v létě OK. ",47.6886108,15.7041372,Hut/KarlLudwigHaus.jpeg,NA
+Hubertushaus ,hut,02.05.2026,Krásná stará chata nad srázem,"Krásná útulná chata hned nad srázem v Hohe Wand. Málo míst na spaní, lager byl pro cca 10 osob, možnost nabíjení v lageru, platba pouze v hotovosti, signál OK. Voda není pitná, velmi dobře vaří a nabízejí zajímavé pokrmy (Chilli sin carne, linsen mit knodel). Snídani si objedná každý co chce, vojíčka na různé způsoby, něco sladkého a káva. Chleba doplnili zdarma. Vajíčka za cca 6 EUR a káva/čaj za cca 4. Večer přišli kozorožci až skoro k chatě. Zaspali jsme východ slunce.",47.8118289,16.0251617,Hut/Hubertushaus.jpeg,NA
+Steirerspur,ferrata,02.05.2026,Krátké cvičné ferraty,"Krátké cvičné ferraty asi 5 minut od chaty, první C je kratší, ale zábavné, delší B/C jednoduché. Vyleze se asi minutu od chaty. Začátek nejištěný, ale dá se v pohodě zvládnout.",47.8114803,16.0262136,Ferrata/Steirerspur.jpg,NA
 Gebirgsvereinssteig,ferrata,02.05.2026,Náročná a exponovaná ferrata,"Nástup na ferratu ze dvou směrů, šla v pohodě najít. Začátek jednoduchý, poté velmi náročné stoupání stěnou – úsek D je poměrně dlouhý a v kombinaci s okolními C a C/D to chce zabrat. Pozor na teplo, na stěnu praží slunko. Poměrně dobře drží skála na nohy, ale je potřeba na několika místech použít ruce a vytáhnout to. Po žebříku je trochu nepříjemné C/D, ale je krátké a dost kramlí. Před závěrečným D úsekem se dá ferrata opustit, ale už není tak exponovaný ani náročný. Vyjde se asi 5 minut od chaty. ",47.8098689,16.0191983,Ferrata/Gebirgsvereinssteig.jpeg,NA
 ,,,,,,,NA,NA
 ,,,,,,,NA,NA
